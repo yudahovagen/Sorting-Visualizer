@@ -1,0 +1,83 @@
+.toolbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;  
+  background: rgb(23, 23, 56);
+  color: white;
+  font-weight: bold;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #298080;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.sortbtn {
+  background-color: #298080;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.sortbtn:hover,
+.sortbtn:focus {
+  background-color: #3498db;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #3498db;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: show;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.arrayElement {
+    padding-top: 7px;
+    font-family: sans-serif;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: space-around;
+    
+}
+.bodyContainer {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+}
