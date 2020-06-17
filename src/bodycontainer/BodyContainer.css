@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #20232a;
+    text-align: center;
+    padding: 1rem 0 2rem;
+}
+.input{
+    color: white;
+}
+.newButtons{
+    color:white;
+    background-color: yellow;
+}
+
+.array-container{
+    position: absolute;
+    left:100px;
+    
+}
+.array-bar{
+    width:6px;
+    background-color: blueviolet;
+    display: inline-block;
+    margin:30px 1px;
+    
+}

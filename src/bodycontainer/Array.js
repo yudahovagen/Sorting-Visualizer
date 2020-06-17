@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class Array extends Component {
   render() {
-    console.log(this.props.array[0]);
+    console.log(this.props);
     return (
       <div className="arrayElement">
         <div
